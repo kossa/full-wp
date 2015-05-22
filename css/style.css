@@ -115,6 +115,70 @@ blockquote p:after{content: "\f10e";margin-right: -25px;margin-left: 5px;}
 #header .navbar-nav>li.schedule>a{color: #fff; padding: 6px 20px;border-color: #F38120; margin: 15px -10px 15px 45px; font-size: 12px; text-transform: uppercase;}
 #header .navbar-nav>li.schedule>a:focus, #header .navbar-nav>li.schedule>a:hover{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;padding-top: 6px!important;}
 
+/*Mega menu*/
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{height: inherit!important;}
+#mega-menu-wrap-primary .mega-schedule {  border-left: 1px solid #EEE!important}  
+#mega-menu-wrap-primary .mega-schedule > a{  
+  color: #FFF!important;
+  padding: 6px 20px!important;
+  border-color: #F38120!important;
+  margin: 15px -10px 15px 45px!important;
+  font-size: 12px!important;
+  text-transform: uppercase!important;  
+  background-color: #F38120!important;
+}
+#mega-menu-wrap-primary .mega-schedule > a:hover, #mega-menu-wrap-primary .mega-schedule > a:focus{
+  background-color: #F38120!important;
+  background-image: -webkit-linear-gradient(bottom, #E96719, #F38120 78%)!important;
+  background-image: -moz-linear-gradient(bottom, #e96719, #f38120 78%)!important;
+  background-image: -o-linear-gradient(bottom, #e96719, #f38120 78%)!important;
+  background-image: -ms-linear-gradient(bottom, #e96719, #f38120 78%)!important;
+  background-image: linear-gradient(to top, #E96719, #F38120 78%)!important;
+  border-color: #F38120!important;
+  color: #FFF!important;
+  border-color: #E96719!important;
+  padding-top: 6px!important;
+}
+/*sub Mega menu*/
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a:hover, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a:focus{
+  background-color: #fff!important;
+  border-bottom: 1px solid #E0E0E0;
+  margin: 0 20px;
+  text-transform: uppercase!important;
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item:last-of-type a{
+  border-bottom: none;
+}
+
+#mega-menu-wrap-primary .btn-primary{color: #FFF!important; padding: 8px 12px!important; background-color: #018CBA!important; border-color: #2E6DA4!important;text-transform: uppercase!important;}
+#mega-menu-wrap-primary .btn-primary:hover{  background-color: #096E90!important;
+  background-image: -webkit-linear-gradient(bottom, #096E90, #018CBA 61%)!important;
+  background-image: -moz-linear-gradient(bottom, #096e90, #018cba 61%)!important;
+  background-image: -o-linear-gradient(bottom, #096e90, #018cba 61%)!important;
+  background-image: -ms-linear-gradient(bottom, #096e90, #018cba 61%)!important;
+  background-image: linear-gradient(to top, #096E90, #018CBA 61%)!important;}
+
+#mega-menu-wrap-primary .mega-sub-menu{padding: 10px 0!important;box-shadow: 0 0 10px rgba(0,0,0,0.3)!important;background-color: #fff!important;}
+#mega-menu-wrap-primary .mega-sub-menu a{color: #EB8333!important;}
+#mega-menu-wrap-primary .mega-sub-menu a:hover{color: #CF6411!important;}
+#mega-menu-wrap-primary .mega-sub-menu .btn, #mega-menu-wrap-primary .mega-sub-menu .btn:hover{color: #fff!important;}
+
+#mega-menu-wrap-primary .my-sub-menu{border-right: 1px solid #E0E0E0!important;}
+#mega-menu-wrap-primary .my-sub-menu > ul > li{border-bottom: 1px solid #E0E0E0!important;margin-right: 20px!important;}
+#mega-menu-wrap-primary .my-sub-menu > ul > li:last-of-type{border-bottom: none!important;}
+#mega-menu-wrap-primary .my-sub-menu a{color: #f38120!important;}
+#mega-menu-wrap-primary .my-sub-menu h4{margin-bottom: 0;}
+#mega-menu-wrap-primary .my-sub-menu h4 a{text-transform: uppercase!important;}
+#mega-menu-wrap-primary .my-sub-menu li > ul{margin: 20px!important;}
+#mega-menu-wrap-primary .my-sub-menu li > ul a{margin: 5px 0!important;display: inline-block!important;}
+#mega-menu-wrap-primary .my-sub-menu li > ul a:before{content: '›'; color: #4b4b4b;}
+
+#mega-menu-wrap-primary .learn-more{text-align: center!important;}
+#mega-menu-wrap-primary .learn-more h5{margin-bottom: 30px;}
+#mega-menu-wrap-primary .learn-more h4{color: #f38120;font-size: 14px;font-style: italic;line-height: 1.4;margin-bottom: 20px;}
+#mega-menu-wrap-primary .learn-more hr{margin: 50px 0;}
+#mega-menu-wrap-primary .learn-more .fa{  font-size: 20px; color: #028CB9; margin-bottom: 10px;}
+
 /*banner*/
 section.banner{display: table; width: 100%;background-attachment: fixed;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;background-attachment: fixed;}
 section.banner .container{  vertical-align: middle; display: table-cell;}
@@ -139,7 +203,7 @@ section.learn-marketing-data .container{max-width: 920px}
 section.learn-marketing-data .one-section{margin-top: 70px;background-color: #fff;padding: 20px 20px 30px;}
 section.learn-marketing-data h5{color: #292929;font-size: 12px; text-transform: uppercase}
 section.learn-marketing-data .fa{font-size: 20px; color: #028cb9;margin-bottom: 10px;}
-section.learn-marketing-data h4{color: #f38120;font-style: italic;font-size: 18px;min-height: 70px;line-height: 1.3;margin-bottom: 20px;}
+section.learn-marketing-data h4{color: #f38120;font-style: italic;font-size: 18px;min-height: 70px;line-height: 1.3;margin-bottom: 20px;min-height: 90px;}
 section.learn-marketing-data a.btn{}
 
 /*sales-force*/
@@ -336,6 +400,9 @@ section.case-studies h4, section.case-studies p{margin-left: -40px;}
 
 /*featured-testimonial*/
 section.featured-testimonial{padding: 30px 0;border-bottom: 1px solid #C2C2C2;}
+section.featured-testimonial .one-featured{position: relative;overflow: hidden;padding: 30px 0;}
+section.featured-testimonial .one-featured:after{content: '';position: absolute;height: 1px;width: 80%;bottom: 0;left: 50%; margin-left: -40%; background-color: #C2C2C2;}
+section.featured-testimonial .one-featured:last-of-type:after{display: none;}
 section.featured-testimonial h3{margin-bottom: 40px;}
 
 

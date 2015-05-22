@@ -61,10 +61,10 @@
             <ul class="nav navbar-nav">
               <?php wp_nav_menu( [
                   'menu'       => 'Main Menu',
+                  'theme_location' => 'primary', 
                   'container'  => '',
-                  'items_wrap' => '%3$s'
+                  'items_wrap' => '<ul id="%1$s" class="nav navbar-nav">%3$s</ul>'
                 ]); ?>
-              <li class="schedule"><a href="#" class="btn btn-warning">schedule a demo ›</a></li>
             </ul>
           </div><!--/.nav-collapse --></div>
       </div>

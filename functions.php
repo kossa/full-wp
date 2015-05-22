@@ -198,6 +198,15 @@ function getImgLink($field='',$size='full')
     return array_shift(wp_get_attachment_image_src(getField( $field ), $size));
 }
 
+/*
+|------------------------------------------------------------------------------------
+| Get Field as File
+|------------------------------------------------------------------------------------
+*/
+function getFileLink($field='')
+{
+    return wp_get_attachment_url(getField( $field ));
+}
 
 
 /*
