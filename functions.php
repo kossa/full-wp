@@ -26,54 +26,20 @@ add_action( 'init', 'full_circle_register_menus' );
 */
 function full_circle_widgets_init() {
 
-        // Footer
         register_sidebar( array(
-                'name'          => __( 'Footer widget area 1', 'full_circle' ),
-                'id'            => 'footer-01',
+                'name'          => __( 'Follow Us', 'full_circle' ),
+                'id'            => 'follow-us',
                 'before_widget' => '',
                 'after_widget'  => '',
-                'before_title'  => '<h4>',
-                'after_title'   => '</h4>' 
         ) );
+
         register_sidebar( array(
-                'name'          => __( 'Footer widget area 2', 'full_circle' ),
-                'id'            => 'footer-02',
-                'before_widget' => '',
-                'after_widget'  => '',
-                'before_title'  => '<h4>',
-                'after_title'   => '</h4>' 
-        ) );
-        register_sidebar( array(
-                'name'          => __( 'Footer widget area 3', 'full_circle' ),
-                'id'            => 'footer-03',
-                'before_widget' => '',
-                'after_widget'  => '',
-                'before_title'  => '<h4>',
-                'after_title'   => '</h4>' 
-        ) );
-        register_sidebar( array(
-                'name'          => __( 'Footer widget area 4', 'full_circle' ),
-                'id'            => 'footer-04',
-                'before_widget' => '',
-                'after_widget'  => '',
-                'before_title'  => '<h4>',
-                'after_title'   => '</h4>' 
-        ) );
-        register_sidebar( array(
-                'name'          => __( 'Footer widget area 5', 'full_circle' ),
-                'id'            => 'footer-05',
-                'before_widget' => '',
-                'after_widget'  => '',
-                'before_title'  => '<h4>',
-                'after_title'   => '</h4>' 
-        ) );
-        register_sidebar( array(
-                'name'          => __( 'Footer widget area 6', 'full_circle' ),
-                'id'            => 'footer-06',
-                'before_widget' => '',
-                'after_widget'  => '',
-                'before_title'  => '<h4>',
-                'after_title'   => '</h4>' 
+                'name'          => __( 'Blog Sidebar', 'full_circle' ),
+                'id'            => 'blog-sidebar',
+                'before_widget' => '<section class="widget %2s">',
+                'after_widget'  => '</section>',
+                'before_title'  => '<h3>',
+                'after_title'   => '</h3>' 
         ) );
         
 }
@@ -305,28 +271,31 @@ function ik_pagination($html) {
     return '<div class="text-center"><ul class="pagination">'.$out.'</ul></div>';
 }
 
-
 /*
-function add_rewrite_rules( $wp_rewrite ) 
-{
-    $new_rules = array(
-        'blog/(.+?)/?$' => 'index.php?post_type=post&name='. $wp_rewrite->preg_index(1),
-    );
- 
-    $wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
-}
-add_action('generate_rewrite_rules', 'add_rewrite_rules');
- 
-function change_blog_links($post_link, $id=0){
- 
-    $post = get_post($id);
- 
-    if( is_object($post) && $post->post_type == 'post'){
-        return home_url('/blog/'. $post->post_name.'/');
-    }
- 
-    return $post_link;
-}
-add_filter('post_link', 'change_blog_links', 1, 3);
-
+|------------------------------------------------------------------------------------
+| Shortcodes
+|------------------------------------------------------------------------------------
 */
+add_filter('widget_text', 'do_shortcode');
+
+//[foobar]
+function my_shortcode_function($attr) { 
+    ob_start();
+?>
+
+    <ul class="list-inline">
+    <?php foreach (get_users() as $user): ?>
+        <li><a title="<?php echo $user->display_name ?>" href="#" class="blogger-img"><?php echo get_avatar($user->ID, 35) ?></a></li>
+    <?php endforeach ?>
+    </ul>
+    <form action="#" class="form-inline">
+        <input type="text" class="form-control" value="" placeholder="I’m looking for …">
+        <input type="submit" class="btn btn-warning btn-search" name="">
+    </form>
+<?php
+$output = ob_get_contents();
+ob_end_clean();
+return $output;
+} 
+
+add_shortcode('our-bloggers', 'my_shortcode_function');
