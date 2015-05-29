@@ -66,29 +66,20 @@ get_header();
     <section class="comments">
       <div class="container">
         <h3>Comments</h3>
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-1">
-            <form action="<?php echo bloginfo( 'url' ); ?>/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate="">
+        
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+            /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+            var disqus_shortname = '<example>'; // Required - Replace '<example>' with your forum shortname
 
-              <input type="hidden" name="comment_post_ID" value="<?php echo the_id(); ?>" id="comment_post_ID">
-              <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-
-              <div class="row">
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" name="author" placeholder="NAME" required>
-                </div>
-                <div class="col-sm-6">
-                  <input type="email" class="form-control" name="email" placeholder="EMAIL ADDRESS" required>
-                </div>
-              </div>
-              <input type="url" class="form-control"  name="url" placeholder="WEBSITE">
-              <textarea name="comment" class="form-control" rows="6" placeholder="YOUR COMMENT"></textarea>
-              <input type="submit" value="COMMENT ›" class="btn btn-warning">
-            </form>
-          </div>
-        </div>
-
-        <?php //var_dump(get_comments()) ?>
+            /* * * DON'T EDIT BELOW THIS LINE * * */
+            (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
       </div>
