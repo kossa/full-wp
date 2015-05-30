@@ -26,20 +26,54 @@ add_action( 'init', 'full_circle_register_menus' );
 */
 function full_circle_widgets_init() {
 
+        // Footer
         register_sidebar( array(
-                'name'          => __( 'Follow Us', 'full_circle' ),
-                'id'            => 'follow-us',
+                'name'          => __( 'Footer widget area 1', 'full_circle' ),
+                'id'            => 'footer-01',
                 'before_widget' => '',
                 'after_widget'  => '',
+                'before_title'  => '<h4>',
+                'after_title'   => '</h4>' 
         ) );
-
         register_sidebar( array(
-                'name'          => __( 'Blog Sidebar', 'full_circle' ),
-                'id'            => 'blog-sidebar',
-                'before_widget' => '<section class="widget %2s">',
-                'after_widget'  => '</section>',
-                'before_title'  => '<h3>',
-                'after_title'   => '</h3>' 
+                'name'          => __( 'Footer widget area 2', 'full_circle' ),
+                'id'            => 'footer-02',
+                'before_widget' => '',
+                'after_widget'  => '',
+                'before_title'  => '<h4>',
+                'after_title'   => '</h4>' 
+        ) );
+        register_sidebar( array(
+                'name'          => __( 'Footer widget area 3', 'full_circle' ),
+                'id'            => 'footer-03',
+                'before_widget' => '',
+                'after_widget'  => '',
+                'before_title'  => '<h4>',
+                'after_title'   => '</h4>' 
+        ) );
+        register_sidebar( array(
+                'name'          => __( 'Footer widget area 4', 'full_circle' ),
+                'id'            => 'footer-04',
+                'before_widget' => '',
+                'after_widget'  => '',
+                'before_title'  => '<h4>',
+                'after_title'   => '</h4>' 
+        ) );
+        register_sidebar( array(
+                'name'          => __( 'Footer widget area 5', 'full_circle' ),
+                'id'            => 'footer-05',
+                'before_widget' => '',
+                'after_widget'  => '',
+                'before_title'  => '<h4>',
+                'after_title'   => '</h4>' 
+        ) );
+        register_sidebar( array(
+                'name'          => __( 'Footer widget area 6', 'full_circle' ),
+                'id'            => 'footer-06',
+                'before_widget' => '',
+                'after_widget'  => '',
+                'before_title'  => '<h4>',
+                'after_title'   => '</h4>' 
         ) );
         
 }
