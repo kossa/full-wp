@@ -9,7 +9,7 @@ get_header(); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-    <?php echo getField('banner'); ?>
+    <?php echo do_shortcode( getField('banner') ); ?>
 
         <div id="sources-page">
           <div class="container">
