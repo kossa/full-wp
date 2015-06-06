@@ -16,11 +16,7 @@
               </div>
 
               <div class="col-sm-5">
-                <section class="sign-up">
-                  <h2>Sign up now!</h2>
-                  <p><em>Please complete all fields</em></p>
-                  <?php echo do_shortcode( '[contact-form-7 id="276" title="Sign up now"]' ); ?>
-                </section>
+                <?php echo do_shortcode( getField('form_shortcode') ); ?>
               </div>
             </div>
           </div>
