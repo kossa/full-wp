@@ -21,7 +21,7 @@ get_header(); ?>
 <!-- no posts found -->
 <?php endif; ?>
     
-<?php load_template( dirname(__FILE__) . '/inc/sales-force.php' ); ?>
+<?php load_template( dirname(__FILE__) . '/inc/why-full-circle.php' ); ?>
 
 <?php load_template( dirname(__FILE__) . '/inc/people-saying.php' ); ?>
 
