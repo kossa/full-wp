@@ -28,7 +28,6 @@
 <!-- no posts found -->
 <?php endif; ?>
     
-<?php load_template( dirname(__FILE__) . '/inc/salesforce-marketing.php' ); ?>
 
 <?php load_template( dirname(__FILE__) . '/inc/sales-force.php' ); ?>
 
