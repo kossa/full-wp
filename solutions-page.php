@@ -11,7 +11,7 @@ get_header(); ?>
 
     <?php echo do_shortcode( getField('banner') ); ?>
 
-    <?php load_template( dirname(__FILE__) . '/inc/menu-products-page.php' ); ?>
+    <?php load_template( dirname(__FILE__) . '/inc/menu-solutions-page.php' ); ?>
 
     <?php the_content( ); ?>
 
