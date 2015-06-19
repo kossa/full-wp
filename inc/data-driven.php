@@ -7,7 +7,7 @@ $clients = GetPosts('clients');
 <section class="data-driven">
   <div class="container">
     <div class="text-center">
-      <h2><span>Data-driven marketers</span></h2>
+      <h2><span>Data-driven Marketers</span></h2>
       <div class="logos">
         <ul class="list-inline" id="foo0">
           <?php if ( $clients->have_posts() ) : while ( $clients->have_posts() ) : $clients->the_post(); ?>
