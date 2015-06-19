@@ -58,7 +58,6 @@ get_header(); ?>
             <div class="row">
               <div class="col-sm-2 text-center">
                 <img src="<?php echo getImgLink('logo') ?>" alt="">
-                <?php echo getField('featured') ?>
               </div>
               <div class="col-sm-9">
                 <blockquote>
