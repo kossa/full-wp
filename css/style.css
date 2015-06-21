@@ -98,8 +98,8 @@ h3{font-size: 24px;}
 
 blockquote{font-size: 20px;font-size: 24px;font-style: italic; color: #0097c3;border: none;padding: 0;position: relative;}
 blockquote p:before, blockquote p:after{color: #B8D6E5;font-style: normal;font-family: FontAwesome; left:-30px; content: "\f10d";}
-blockquote p:before{margin-left: -25px;margin-right: 5px;}
-blockquote p:after{content: "\f10e";margin-right: -25px;margin-left: 5px;}
+blockquote p:before{margin-left: 0 ;margin-right: 5px;}
+blockquote p:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 
 .thumb{margin-bottom: 20px;background-color: #fff;padding: 5px;box-shadow: 0 0 3px rgba(0,0,0,0.2); display: inline-block;}
 
@@ -258,8 +258,8 @@ section.banner-solutions-so{background-image: url(../img/banner-solutions-so.jpg
 section.our-products{padding: 30px 0 0;}
 section.our-products article{border-bottom: 1px solid #E2E2E2;padding: 30px 0;}
 section.our-products article:last-of-type{border: none;}
-section.our-products article h3{color: #018cba;}
-section.our-products article h4{font-size: 16px;line-height: 1.4;color: #4b4b4b;text-transform: uppercase;margin-bottom: 30px;}
+section.our-products article h3{color: #018cba; margin-bottom: 0!important;}
+section.our-products article h4{font-size: 16px!important;line-height: 1.4;color: #4b4b4b!important;font-style: normal!important;text-transform: uppercase;margin-bottom: 30px;}
 
 /*salesforce-marketing*/
 section.salesforce-marketing{padding: 60px 0;background: url(../img/bg-salesforce-marketing.jpg) no-repeat center center;-webkit-background-size: cover; background-size: cover;}
