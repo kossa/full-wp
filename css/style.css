@@ -465,6 +465,10 @@ section.comments{background-color: #F1F1F1;border-top: 1px solid #A4A4A4;padding
 section.comments h3{margin-bottom: 30px;}
 section.comments .form-control{margin-bottom: 20px;}
 
+/*Popup*/
+.img-popup{top: 30px;}
+.img-popup .modal-body{padding: 0;margin-bottom: -10px;overflow: hidden;border-radius: 10px;}
+.img-popup img{width: 100%;}
 
 @media screen and (max-width: 1200px){
   section.data-driven .logos li {margin: 20px 40px; }
