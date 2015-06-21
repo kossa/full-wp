@@ -30,7 +30,9 @@ get_header(); ?>
             <div class="clearfix"></div>
           </div>
           <div class="col-sm-4 col-md-3">
-            <img src="<?php echo getImgLink('logo') ?>" alt="" class="thumb">
+            <div class="thumb">
+              <img src="<?php echo getImgLink('logo') ?>" alt="">
+            </div>
             <?php if (getFileLink('file')): ?>
               <a href="<?php echo getFileLink('file') ?>" class="btn btn-warning btn-block">Read the case study ›</a>
             <?php endif ?>

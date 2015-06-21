@@ -101,7 +101,8 @@ blockquote p:before, blockquote p:after{color: #B8D6E5;font-style: normal;font-f
 blockquote p:before{margin-left: 0 ;margin-right: 5px;}
 blockquote p:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 
-.thumb{margin-bottom: 20px;background-color: #fff;padding: 5px;box-shadow: 0 0 3px rgba(0,0,0,0.2); display: inline-block;}
+.thumb{background-image: url(../img/bg-logo.jpg); -webkit-background-size: cover;
+background-size: cover;border: 3px solid #FFF;text-align: center;width: 100%; padding: 90px 0 45px;margin-bottom: 20px;box-shadow: 0 0 3px rgba(0,0,0,0.2); display: inline-block;}
 
 /*Header*/
 #header .container{max-width: 1070px}
