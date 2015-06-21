@@ -52,7 +52,7 @@ a{color: #f38120;-webkit-transition: all 0.3s;-moz-transition: all 0.3s;-o-trans
 a:hover{text-decoration: none;}
 img{max-width: 100%}
 
-ul{list-style-position: outside; padding-left: 18px;}
+ul{list-style-position: outside; padding-left: 18px; list-style-type: disc;}
 
 h1, h2, h3{font-family: 'robotolight', sans-serif;font-weight: 300;}
 hr.sep{max-width: 60%;margin: 30px auto;border-color: #E2E2E2;overflow: hidden;clear: both;}
