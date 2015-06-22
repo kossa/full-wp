@@ -68,7 +68,9 @@ $clients = GetPosts('clients');
           $('#foo1').carouFredSel({
             responsive: true,
             width: '100%',
-            scroll: 1,
+            scroll: {
+              'duration'    : 2000,
+            },
             items: {
               visible: {
                 min: 1,
