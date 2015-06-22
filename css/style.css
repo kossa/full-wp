@@ -144,6 +144,7 @@ background-size: cover;border: 3px solid #FFF;text-align: center;width: 100%; pa
   border-color: #E96719!important;
   padding-top: 6px!important;
 }
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-flyout.mega-menu-item-has-children > a:after, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-flyout li.mega-menu-item-has-children > a:after, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item-has-children > a:after{display: none!important;}
 /*sub Mega menu*/
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a:hover, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a:focus{
   background-color: #fff!important;
