@@ -9,6 +9,7 @@ $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
 $args = array(
    'post_type' => 'post',
    'paged'=>$paged,
+   'category__not_in' => [4,5,6,7]
 );
 $wp_query = new WP_Query( $args );
 
