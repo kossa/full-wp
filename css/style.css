@@ -118,7 +118,7 @@ background-size: cover;border: 3px solid #FFF;text-align: center;width: 100%; pa
 #header .navbar-nav>li.schedule{border-left: 1px solid #EEEEEE;}
 #header .navbar-nav>li.schedule>a{color: #fff; padding: 6px 20px;border-color: #F38120; margin: 15px -10px 15px 45px; font-size: 12px; text-transform: uppercase;}
 #header .navbar-nav>li.schedule>a:focus, #header .navbar-nav>li.schedule>a:hover{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;padding-top: 6px!important;}
-.navbar-brand>img{margin-top: 10px;}
+.navbar-brand>img{margin-top: 10px;max-height: 75px;}
 
 
 /*Mega menu*/
