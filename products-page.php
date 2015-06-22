@@ -23,7 +23,7 @@ get_header(); ?>
     
 <?php load_template( dirname(__FILE__) . '/inc/why-full-circle.php' ); ?>
 
-<?php load_template( dirname(__FILE__) . '/inc/static-quote.php' ); ?>
+<?php load_template( dirname(__FILE__) . '/inc/people-saying.php' ); ?>
 
 <?php load_template( dirname(__FILE__) . '/inc/marketing-data-experts.php' ); ?>
 
