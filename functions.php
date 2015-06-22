@@ -334,3 +334,9 @@ return $output;
 
 add_shortcode('our-bloggers', 'my_shortcode_function');
 
+
+
+function custom_excerpt_more( $more ) {
+    return '';
+}
+add_filter( 'excerpt_more', 'custom_excerpt_more' );

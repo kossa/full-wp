@@ -38,7 +38,7 @@ $wp_query = new WP_Query( $args );
                   <li>•</li>
                   <li><a href="<?php echo comment_link() ?>"><?php echo comments_number() ?></a></li>
                 </ul>
-                <?php echo get_the_excerpt();  ?>... 
+                <?php echo get_the_excerpt( );  ?>... 
                 <a href="<?php echo the_permalink(); ?>">Read more ›</a>
               </article>
               <hr class="sep">
