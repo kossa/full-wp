@@ -186,7 +186,8 @@ background-size: cover;border: 3px solid #FFF;text-align: center;width: 100%; pa
 #mega-menu-wrap-primary .learn-more .fa{  font-size: 20px; color: #028CB9; margin-bottom: 10px;}
 
 /*banner*/
-section.banner{display: table; width: 100%;background-attachment: fixed;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover; background-size: cover;background-attachment: fixed;}
+section.banner{display: table; width: 100%;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover;
+background-size: cover;}
 section.banner .container{  vertical-align: middle; display: table-cell;}
 section.banner h1{font-weight: 300; font-size: 54px; color: #fff; font-family: 'robotolight', sans-serif;margin-bottom: 50px;}
 section.banner h2{font-size: 27px;color: #fff;margin: 0;}
