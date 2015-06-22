@@ -105,11 +105,12 @@ blockquote p:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 background-size: cover;border: 3px solid #FFF;text-align: center;width: 100%; padding: 90px 0 45px;margin-bottom: 20px;box-shadow: 0 0 3px rgba(0,0,0,0.2); display: inline-block;}
 
 /*Header*/
+#header{background-color: #fff;}
 #header .container{max-width: 1070px}
 #header a{color: #4b4b4b;}
 #header #top{overflow: hidden;font-size: 12px;}
 #header #top ul{float: right;margin: 7px 0;}
-#header .navbar{background-color: #fff;box-shadow: 0 -1px 20px rgba(0,0,0,0.1); border: none;margin: 0;}
+#header .navbar{background-color: #fff; border: none;margin: 0;}
 #header .navbar-brand{height: auto;padding: 0;}
 #header .navbar-nav{float: right;margin-bottom: -2px;}
 #header .navbar-nav>li>a{padding: 22px;border-left: 1px solid #EEEEEE;font-size: 16px;-webkit-transition: background 0.3s;-moz-transition: background 0.3s;-o-transition: background 0.3s;-ms-transition: background 0.3s;transition: background 0.3s;}
@@ -117,15 +118,16 @@ background-size: cover;border: 3px solid #FFF;text-align: center;width: 100%; pa
 #header .navbar-nav>li.schedule{border-left: 1px solid #EEEEEE;}
 #header .navbar-nav>li.schedule>a{color: #fff; padding: 6px 20px;border-color: #F38120; margin: 15px -10px 15px 45px; font-size: 12px; text-transform: uppercase;}
 #header .navbar-nav>li.schedule>a:focus, #header .navbar-nav>li.schedule>a:hover{background-color: #F38120;border-color: #F38120;color: #fff;border-color: #E96719;padding-top: 6px!important;}
+.navbar-brand>img{margin-top: 10px;}
+
 
 /*Mega menu*/
 #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{height: inherit!important;}
-#mega-menu-wrap-primary .mega-schedule {  border-left: 1px solid #EEE!important}  
 #mega-menu-wrap-primary .mega-schedule > a{  
   color: #FFF!important;
   padding: 6px 20px!important;
   border-color: #F38120!important;
-  margin: 15px -10px 15px 45px!important;
+  margin: 15px -10px 15px 5px!important;
   font-size: 12px!important;
   text-transform: uppercase!important;  
   background-color: #F38120!important;

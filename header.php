@@ -31,41 +31,43 @@
   <body>
 
     <header id="header">
-      <section id="top">
-        <div class="container">
-          <ul class="list-inline">
-            <?php wp_nav_menu( [
-                  'menu'       => 'Top Menu',
-                  'container'  => '',
-                  'items_wrap' => '%3$s'
-                ]); ?>
-            <!-- <li><a href="#">Pricing</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Contact Us</a></li> -->
-          </ul>
-        </div>
-      </section>
-
-      <div class="navbar" role="navigation">
-        <div class="container"><div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
             <a class="navbar-brand" href="<?php echo bloginfo( 'url' ); ?>"><img src="<?php echo bloginfo( 'url' ); ?>/wp-content/uploads/2015/05/logo.png" alt=""></a>
           </div>
-          <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-              <?php wp_nav_menu( [
-                  'menu'       => 'Main Menu',
-                  'theme_location' => 'primary', 
-                  'container'  => '',
-                  'items_wrap' => '<ul id="%1$s" class="nav navbar-nav">%3$s</ul>'
-                ]); ?>
-            </ul>
-          </div><!--/.nav-collapse --></div>
+          <div class="col-sm-9">
+            <div id="top">
+              <ul class="list-inline">
+                <?php wp_nav_menu( [
+                      'menu'       => 'Top Menu',
+                      'container'  => '',
+                      'items_wrap' => '%3$s'
+                    ]); ?>
+              </ul>
+            </div>
+
+            <div class="navbar" role="navigation">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+                <div class="collapse navbar-collapse">
+                  <ul class="nav navbar-nav">
+                    <?php wp_nav_menu( [
+                        'menu'       => 'Main Menu',
+                        'theme_location' => 'primary', 
+                        'container'  => '',
+                        'items_wrap' => '<ul id="%1$s" class="nav navbar-nav">%3$s</ul>'
+                      ]); ?>
+                  </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+          </div>
+        </div>
       </div>
     </header><!-- end header -->
