@@ -26,7 +26,7 @@ get_header();
               <h1 class="title"><?php the_title(); ?></h1>
               <ul class="list-inline article-info">
                 <li class="blogger-img"><?php echo get_avatar(get_the_author_meta('ID'), 25) ?></li>
-                <li>BY <a href="#"><?php echo the_author(); ?></a></li>
+                <li>BY <a href="#"><?php echo get_the_author(); ?></a></li>
                 <li>•</li>
                 <li><?php the_date(); ?></li>
                 <li>•</li>
