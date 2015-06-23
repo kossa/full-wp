@@ -92,7 +92,7 @@ h1{font-size: 50px;color: #000;}
 h2{font-size: 40px;color: #4b4b4b}
 h2.title{text-align: center;margin-bottom: 30px;}
 h2 span{display: inline-block;padding: 0 50px 5px;border-bottom: 1px solid #9C9C9C;font-size: 40px; font-family: 'robotolight', sans-serif;color: #4b4b4b;}
-h2 img{margin-top: -10px!important;float: left;}
+h2 img{margin-top: -10px!important;}
 h3{font-size: 24px;}
 
 /*colors*/
