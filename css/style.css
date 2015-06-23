@@ -60,6 +60,8 @@ hr.sep{max-width: 60%;margin: 30px auto;border-color: #E2E2E2;overflow: hidden;c
 .hr{position: relative;}
 .hr:after{ content: ''; position: absolute; left: 50%; bottom: 0; margin-left: -25%; width: 50%; height: 1px; background-color: #ddd;}
 
+.thumb {margin-bottom: 20px; background-color: #FFF; padding: 5px; box-shadow: 0 0 3px rgba(0, 0, 0, 0.2); display: inline-block; }
+
 /*Forms*/
 .form-control{border-radius: 0;box-shadow: none}
 .form-control:required, .form-control.wpcf7-validates-as-required{background: #fff url(../img/star.png) no-repeat 15px center;padding-left: 25px;}
