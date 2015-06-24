@@ -14,7 +14,7 @@
           <li>Align marketing and sales</li>
           <li>Participate in critical revenue decisions</li>
         </ul>
-        <a href="#" class="cta">Learn More</a>
+        <a href="http://104.236.242.180/full-wp/solutions/marketing-executives/" class="cta">Learn More</a>
       </div>
 
       <div class="col-sm-2 col-lg-1">
@@ -29,7 +29,7 @@
           <li>Invest your marketing budget strategically</li>
           <li>Optimize your marketing mix now and inthe future</li>
         </ul>
-        <a href="#" class="cta">Learn More</a>
+        <a href="http://104.236.242.180/full-wp/solutions/demand-generation/" class="cta">Learn More</a>
       </div>
 
       <div class="col-sm-2 col-lg-1">
@@ -44,7 +44,7 @@
           <li>Never say “I can’t report on that” again</li>
           <li>Stop struggling with tough ad-hoc reporting requests</li>
         </ul>
-        <a href="#" class="cta">Learn More</a>
+        <a href="http://104.236.242.180/full-wp/solutions/marketing-operations/" class="cta">Learn More</a>
       </div>
 
       <div class="col-sm-2 col-lg-1">
@@ -59,7 +59,7 @@
           <li>Increase deal velocity</li>
           <li>Make sure you hit your SLAs</li>
         </ul>
-        <a href="#" class="cta">Learn More</a>
+        <a href="http://104.236.242.180/full-wp/solutions/sales/" class="cta">Learn More</a>
       </div>
     </div>
   </div>
