@@ -1,6 +1,6 @@
 <section class="why-full-circle">
   <div class="container">
-    <h2 class="text-center white"><span>Why Full Circle CRM?</span></h2>
+    <h2 class="text-center white"><span>Why Full Circle Insights?</span></h2>
     <div class="row">
       <div class="col-sm-2 col-lg-1">
         <div class="thumb">
