@@ -335,6 +335,11 @@ return $output;
 add_shortcode('our-bloggers', 'my_shortcode_function');
 
 
+/*
+|------------------------------------------------------------------------------------
+| Change Excerpt
+|------------------------------------------------------------------------------------
+*/
 
 function custom_excerpt_more( $more ) {
     return '';
