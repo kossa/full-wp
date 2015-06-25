@@ -6,15 +6,11 @@
 
 get_header(); ?>
 
-<section class="banner banner-about">
-  <div class="container">
-    <h1>Full Circle CRM</h1>
-  </div>
-</section><!-- end banner -->
-
 <?php load_template( dirname(__FILE__) . '/inc/menu-abouts-page.php' ); ?>
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+
+    <?php echo do_shortcode(getField('banner')); ?>
 
     <?php the_content( ); ?>
 
