@@ -296,7 +296,7 @@ section.why-full-circle h2{margin-bottom: 30px;}
 section.why-full-circle h2 span{color: #fff;border-color: #fff;}
 section.why-full-circle h3{font-size: 24px;font-weight: 100;}
 section.why-full-circle .one{padding: 20px 0;}
-section.why-full-circle .thumb{overflow: hidden;border-radius: 100%;width: 95px;height: 95px;border: 5px solid #fff;float: right;margin-top: 20px;box-shadow: 0 0 3px rgba(76,76,76,0.5)}
+section.why-full-circle .thumb{padding: 0;overflow: hidden;border-radius: 100%;width: 95px;height: 95px;border: 5px solid #fff;float: right;margin-top: 20px;box-shadow: 0 0 3px rgba(76,76,76,0.5)}
 section.why-full-circle .cta{color: #fff;text-transform: uppercase;border: 1px solid #fff;display: inline-block;padding: 8px 27px;margin: 10px 0 30px;font-size: 12px;}
 section.why-full-circle ul{padding-left: 30px;line-height: 1.6;padding-right: 50px;}
 section.why-full-circle ul li{text-indent: -5px;}
