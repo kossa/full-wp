@@ -48,7 +48,7 @@ $clients = GetPosts('clients');
         <div class="row">
           <div class="col-lg-8 col-md-offset-2">
             <blockquote>
-              <?php the_content(); ?>
+              <?php echo get_the_content(); ?>
             </blockquote>
             <img src="<?php echo getImgLink('logo') ?>" alt="" class="pull-left">
             <p><small><?php echo getField('client_employee_name') ?> <br> <?php echo getField('client_employee_title') ?></small></p>
