@@ -20,7 +20,7 @@ get_header(); ?>
 <?php endif; ?>
     
 
-<?php load_template( dirname(__FILE__) . '/inc/people-saying.php' ); ?>
+<?php load_template( dirname(__FILE__) . '/inc/data-driven.php'); ?>
 
 <?php load_template( dirname(__FILE__) . '/inc/what-we-can-do.php' ); ?>
 
