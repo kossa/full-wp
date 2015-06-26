@@ -482,6 +482,8 @@ section.comments .form-control{margin-bottom: 20px;}
   section.menu-pages li a{padding: 15px 7px;}
   #pricing-page .resume{margin-top: 110px;}
   section.our-camera li{padding: 10px 20px;}
+
+  #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{padding: 13px!important;}
 }
 @media screen and (max-width: 991px){
   #header .navbar-nav>li>a {padding: 22px 8px;font-size: 14px;}
@@ -500,11 +502,13 @@ section.comments .form-control{margin-bottom: 20px;}
   #pricing-page h4.title{height: 120px;}
   #pricing-page .resume {margin-top: 150px; }
   section.our-camera h1{font-size: 40px;}
+
+  #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{padding: 5px!important; font-size: 13px!important;}
 }
 @media screen and (max-width: 767px){
-  .navbar-toggle{background-color: #F38120;}
+  .navbar-toggle{background-color: #F38120; display: none;}
   .navbar-toggle span{background-color: #fff;}
-  #header .navbar-nav{float: none;margin: 0;}
+  #header .navbar-nav{margin: 0;float: left;width: 100%;}
   #header .navbar-nav>li>a{border: none;}
   #header .navbar-nav>li>a {padding: 10px;}
   #header .navbar-nav>li.schedule{border: none;}
@@ -522,6 +526,13 @@ section.comments .form-control{margin-bottom: 20px;}
   #pricing-page .btn-bottom{position: static;margin-top: 50px;}
   #pricing-page .resume{margin-top: 20px;}
   blockquote{margin: 10px 40px;}
+  .navbar-brand{float: none; display: block;text-align: center;}
+  .navbar-brand>img{display: inline-block;}
+
+  #header #top ul{float: none;text-align: center;}
+  .navbar-collapse{display: block;visibility: visible;}
+  #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a{display: block!important;padding: 2px 22px!important;}
+  #mega-menu-wrap-primary .mega-schedule > a{margin-left: 0!important ;}
 }
 @media screen and (max-width: 480px){
   footer#footer{padding: 20px 0;}
