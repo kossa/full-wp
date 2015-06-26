@@ -17,7 +17,7 @@ $wp_query = new WP_Query( $args );
 
 <section class="banner banner-blog">
   <div class="container">
-    <h1>The Full Circle CRM Blog</h1>
+    <h1>The Full Circle Insights Blog</h1>
     <h2>From Salesforce Marketers, For Salesforce Marketers</h2>
   </div>
 </section><!-- end banner -->
