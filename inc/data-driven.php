@@ -27,7 +27,8 @@ $clients = GetPosts('clients');
                 responsive: true,
                 width: '100%',
                 scroll: {
-                  'duration'    : 2000,
+                  duration    : 2000,
+                  items            : 1,
                 },
                 items: {
                   visible: {
@@ -71,7 +72,7 @@ $clients = GetPosts('clients');
             responsive: true,
             width: '100%',
             scroll: {
-              'duration'    : 2000,
+              duration    : 2000,
             },
             items: {
               visible: {
