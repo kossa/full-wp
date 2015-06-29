@@ -70,7 +70,12 @@ get_header(); ?>
                 <blockquote>
                   <?php the_content(); ?>
                 </blockquote>
-                <p><small><?php echo getField('client_employee_title') ?> <br><?php echo getField('client_employee_name') ?></small></p>
+                <p>
+                  <small>
+                    <?php echo getField('client_employee_name') ?> <br>
+                    <?php echo getField('client_employee_title') ?>
+                  </small>
+                </p>
               </div>
             </div>
             <hr class="sep">
