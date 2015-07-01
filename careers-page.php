@@ -12,7 +12,7 @@ $careers = GetPosts('career', ['order'=>'ASC']);
 
 <section class="banner banner-about">
   <div class="container">
-    <h1>Full Circle CRM</h1>
+    <h1>Full Circle Insight</h1>
   </div>
 </section><!-- end banner -->
 
