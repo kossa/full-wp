@@ -37,6 +37,9 @@
               </div>
             </div>
           </div>
+                    <div class="copyright">
+                        &copy;<?php echo date('Y'); ?> Copyright Full Circle CRM <span></span> <a href="<?php echo get_home_url(null, 'contact-us'); ?>">Contact</a> | <a href="<?php echo get_home_url(null, 'privacy'); ?>">Privacy <span class="amp"> &amp; </span> Terms</a>
+                    </div>
         </div>
       </div>
     </footer>
