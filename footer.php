@@ -30,9 +30,9 @@
         </div>
 
         <br><br>
-        <p class="text-center">
+        <div class="text-center">
           <?php dynamic_sidebar( 'footer-copyright' ); ?>
-        </p>
+        </div>
       </div>
     </footer>
 

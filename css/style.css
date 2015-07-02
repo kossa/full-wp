@@ -240,7 +240,7 @@ footer#footer{padding: 50px 0;font-size: 11px;color: #4b4b4b;background-color: #
 footer#footer .container{max-width: 920px}
 footer#footer h4{font-size: 11px;font-weight: bold;}
 footer#footer a{color: #4b4b4b;}
-footer#footer ul{line-height: 2;}
+footer#footer ul{line-height: 2;  display: inline;}
 footer#footer .fa{margin-right: 6px;}
 
 /*banner-products*/
