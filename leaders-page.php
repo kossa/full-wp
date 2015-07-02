@@ -10,7 +10,7 @@ get_header(); ?>
 
 <section class="banner banner-about">
   <div class="container">
-    <h1>Full Circle Customers</h1>
+    <h1>Full Circle Insights Leadership</h1>
   </div>
 </section><!-- end banner -->
 

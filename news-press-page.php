@@ -18,7 +18,7 @@ get_header(); ?>
 
 <section class="banner banner-about">
   <div class="container">
-    <h1>Full Circle CRM</h1>
+    <h1>Full Circle Insights News & Press</h1>
   </div>
 </section><!-- end banner -->
 
