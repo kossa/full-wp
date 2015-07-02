@@ -2,27 +2,17 @@
     <footer id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-sm-7">
+          <div class="col-sm-5">
             <div class="row">
-              <div class="col-sm-4">
-                <!-- <h4>Site Links</h4>
-                <ul class="list-unstyled">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Marketing Science Blog</a></li>
-                  <li><a href="#">Ensure Opportunities Have Contact Roles</a></li>
-                  <li><a href="#">Set Campaign Member Status</a></li>
-                </ul> -->
+              <div class="col-sm-6">
                 <?php dynamic_sidebar( 'footer-01' ); ?>
               </div>
-              <div class="col-sm-4">
-                <?php dynamic_sidebar( 'footer-02' ); ?>
-              </div>
-              <div class="col-sm-4">
+              <div class="col-sm-6">
                 <?php dynamic_sidebar( 'footer-03' ); ?>
               </div>
             </div>
           </div>
-          <div class="col-sm-5">
+          <div class="col-sm-7">
             <div class="row">
               <div class="col-sm-3">
                 <h4></h4>
@@ -38,6 +28,11 @@
             </div>
           </div>
         </div>
+
+        <br><br>
+        <p class="text-center">
+          <?php dynamic_sidebar( 'footer-copyright' ); ?>
+        </p>
       </div>
     </footer>
 

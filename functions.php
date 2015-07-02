@@ -76,6 +76,15 @@ function full_circle_widgets_init() {
                 'after_title'   => '</h4>' 
         ) );
         
+        register_sidebar( array(
+                'name'          => __( 'Footer copyright', 'full_circle' ),
+                'id'            => 'footer-copyright',
+                'before_widget' => '',
+                'after_widget'  => '',
+                'before_title'  => '<h4>',
+                'after_title'   => '</h4>' 
+        ) );
+        
 }
 add_action( 'widgets_init', 'full_circle_widgets_init' );
 
