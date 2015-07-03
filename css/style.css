@@ -101,7 +101,7 @@ h3{font-size: 24px;}
 
 blockquote{font-size: 20px;font-size: 24px;font-style: italic; color: #0097c3;border: none;padding: 0;position: relative;}
 blockquote p{display: inline;}
-blockquote:before, blockquote:after{color: #d1dce7;font-style: normal;font-family: FontAwesome; left:-30px; content: "\f10d";}
+blockquote:before, blockquote:after{color: #7DA0C4;font-style: normal;font-family: FontAwesome; left:-30px; content: "\f10d";}
 blockquote:before{margin-left: 0 ;margin-right: 5px;}
 blockquote:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 
