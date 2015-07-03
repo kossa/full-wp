@@ -101,7 +101,7 @@ h3{font-size: 24px;}
 
 blockquote{font-size: 20px;font-size: 24px;font-style: italic; color: #0097c3;border: none;padding: 0;position: relative;}
 blockquote p{display: inline;}
-blockquote:before, blockquote:after{color: #B8D6E5;font-style: normal;font-family: FontAwesome; left:-30px; content: "\f10d";}
+blockquote:before, blockquote:after{color: #d1dce7;font-style: normal;font-family: FontAwesome; left:-30px; content: "\f10d";}
 blockquote:before{margin-left: 0 ;margin-right: 5px;}
 blockquote:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 
@@ -185,7 +185,7 @@ blockquote:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 #mega-menu-wrap-primary .learn-more h5{margin-bottom: 30px;}
 #mega-menu-wrap-primary .learn-more h4{color: #f38120;font-size: 14px;font-style: italic;line-height: 1.4;margin-bottom: 20px;}
 #mega-menu-wrap-primary .learn-more hr{margin: 50px 0;}
-#mega-menu-wrap-primary .learn-more .fa{  font-size: 20px; color: #028CB9; margin-bottom: 10px;}
+#mega-menu-wrap-primary .learn-more .fa{  font-size: 20px; color: #7DA0C4; margin-bottom: 10px;}
 
 /*banner*/
 section.banner{display: table; width: 100%;position: relative;padding: 80px 0;background: #ddd url(../img/bg-banner.jpg) no-repeat center top;color: #fff;text-align: center;-webkit-background-size: cover;
@@ -201,7 +201,7 @@ section.what-we-do{padding-top: 30px;font-size: 16px;}
 section.what-we-do .container{max-width: 860px}
 section.what-we-do h2{text-align: center;margin-bottom: 50px;}
 section.what-we-do h2 span{text-align: center;}
-section.what-we-do h3{font-size: 24px;color: #666666;margin-top: 0;font-family: 'robotolight', sans-serif;}
+section.what-we-do h3{font-size: 24px;color: #e5e1e6;margin-top: 0;font-family: 'robotolight', sans-serif;}
 section.what-we-do .btn{margin-top: 30px;padding: 8px 26px;font-size: 12px;}
 section.what-we-do .leading-marketing{margin-top: 50px;padding-top: 90px;background: url(../img/bg-what-we-do.jpg) repeat-x;}
 section.what-we-do .leading-marketing .btn{margin-bottom: 25px;font-size: 12px;padding: 8px 30px;}
@@ -211,7 +211,7 @@ section.learn-marketing-data{padding: 80px 0 150px;text-align: center;background
 section.learn-marketing-data .container{max-width: 920px}
 section.learn-marketing-data .one-section{margin-top: 70px;background-color: #fff;padding: 20px 20px 30px;}
 section.learn-marketing-data h5{color: #292929;font-size: 12px; text-transform: uppercase}
-section.learn-marketing-data .fa{font-size: 20px; color: #028cb9;margin-bottom: 10px;}
+section.learn-marketing-data .fa{font-size: 20px; color: #7DA0C4;margin-bottom: 10px;}
 section.learn-marketing-data h4{color: #f38120;font-style: italic;font-size: 18px;min-height: 70px;line-height: 1.3;margin-bottom: 20px;min-height: 90px;}
 section.learn-marketing-data a.btn{}
 
@@ -310,7 +310,7 @@ section.marketing-data-exprerts{padding: 60px 0;background: url(../img/bg-market
 section.marketing-data-exprerts h2{text-align: center;margin-bottom: 40px;}
 section.marketing-data-exprerts article{color: #f38120;background-color: rgba(255,255,255,.5);padding: 30px;color: #000;}
 section.marketing-data-exprerts h4{margin: 0 0 20px;font-size: 12px;color: #292929;text-transform: uppercase;}
-section.marketing-data-exprerts .fa{color: #028CB9;font-size: 18px;margin-right: 7px;}
+section.marketing-data-exprerts .fa{color: #7DA0C4;font-size: 18px;margin-right: 7px;}
 section.marketing-data-exprerts p{font-size: 18px;font-style: italic;color: #f38120;}
 
 
@@ -362,7 +362,7 @@ section.case-studies h4, section.case-studies p{margin-left: -40px;}
 #news-page article{padding: 20px 0;}
 #news-page article:last-of-type{padding-bottom: 0;}
 #news-page article h1{font-size: 16px;font-family: 'robotomedium', sans-serif;}
-#news-page article h4 a{color: #028cb9;text-transform: uppercase;}
+#news-page article h4 a{color: #7DA0C4;text-transform: uppercase;}
 #news-page article h5{font-size: 12px;text-transform: uppercase;}
 
 .pager li>a, .pager li>span{background-color: transparent;border: none;text-transform: uppercase;font-size: 12px;font-family: 'robotomedium', sans-serif;}
@@ -388,7 +388,7 @@ section.case-studies h4, section.case-studies p{margin-left: -40px;}
 /*sources-page*/
 #sources-page{padding: 50px 0 80px;}
 #sources-page h1.title{color: #4b4b4b;font-size: 24px;margin-bottom: 20px;padding-bottom: 10px;border-bottom: 1px solid #E2E2E2;}
-#sources-page h1 i{color: #028CB9;}
+#sources-page h1 i{color: #7DA0C4;}
 #sources-page h4{font-style: italic;color: #f38120;font-size: 18px;}
 
 
@@ -452,7 +452,7 @@ section.our-camera li{padding: 0 50px;}
 #sidebar input[type="submit"]{width: 13%;float: left;}
 #sidebar section.follow-us{margin-bottom: 10px;padding: 0 10px;}
 #sidebar section.follow-us li{margin: 0 1px;}
-#sidebar section.follow-us a{color: #028CB9;font-size: 20px;}
+#sidebar section.follow-us a{color: #7DA0C4;font-size: 20px;}
 #sidebar section.our-bloggers li{display: inline-block;}
 #sidebar section.follow-us li{display: inline-block;}
 
@@ -460,7 +460,7 @@ section.our-camera li{padding: 0 50px;}
 
 /*learn-from-experts*/
 section.learn-from-experts{text-align: center;}
-section.learn-from-experts .fa{font-size: 20px;color: #028CB9;}
+section.learn-from-experts .fa{font-size: 20px;color: #7DA0C4;}
 section.learn-from-experts h4{color: #f38120;font-style: italic;}
 
 /*our-bloggers*/
