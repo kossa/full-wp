@@ -158,7 +158,7 @@ blockquote:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
   border-bottom: none;
 }
 
-#mega-menu-wrap-primary .btn-primary{color: #FFF!important; padding: 8px 12px!important; background-color: #018CBA!important; border-color: #2E6DA4!important;text-transform: uppercase!important;}
+#mega-menu-wrap-primary .btn-primary{color: #FFF!important; padding: 8px 12px!important; background-color: #7DA0C4 !important; border-color: #2E6DA4!important;text-transform: uppercase!important;}
 #mega-menu-wrap-primary .btn-primary:hover{  background-color: #096E90!important;
   background-image: -webkit-linear-gradient(bottom, #096E90, #018CBA 61%)!important;
   background-image: -moz-linear-gradient(bottom, #096e90, #018cba 61%)!important;
