@@ -160,11 +160,11 @@ blockquote:after{content: "\f10e";margin-right: -25px;margin-left: 10px;}
 
 #mega-menu-wrap-primary .btn-primary{color: #FFF!important; padding: 8px 12px!important; background-color: #7DA0C4 !important; border-color: #2E6DA4!important;text-transform: uppercase!important;}
 #mega-menu-wrap-primary .btn-primary:hover{  background-color: #096E90!important;
-  background-image: -webkit-linear-gradient(bottom, #096E90, #7DA0C4 61%)!important;
-  background-image: -moz-linear-gradient(bottom, #096e90, #7DA0C4 61%)!important;
-  background-image: -o-linear-gradient(bottom, #096e90, #7DA0C4 61%)!important;
-  background-image: -ms-linear-gradient(bottom, #096e90, #7DA0C4 61%)!important;
-  background-image: linear-gradient(to top, #096E90, #7DA0C4 61%)!important;}
+  background-image: -webkit-linear-gradient(bottom, #7DA0C4, #096E90 61%)!important;
+  background-image: -moz-linear-gradient(bottom, #7DA0C4, #096E90 61%)!important;
+  background-image: -o-linear-gradient(bottom, #7DA0C4, #096E90 61%)!important;
+  background-image: -ms-linear-gradient(bottom, #7DA0C4, #096E90 61%)!important;
+  background-image: linear-gradient(to top, #7DA0C4, #096E90 61%)!important;}
 
 #mega-menu-wrap-primary .mega-sub-menu{padding: 10px 0!important;box-shadow: 0 0 10px rgba(0,0,0,0.3)!important;background-color: #fff!important;}
 #mega-menu-wrap-primary .mega-sub-menu a{color: #EB8333!important;}
