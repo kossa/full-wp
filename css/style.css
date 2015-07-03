@@ -76,7 +76,7 @@ hr.sep{max-width: 60%;margin: 30px auto;border-color: #E2E2E2;overflow: hidden;c
   background-image: -o-linear-gradient(bottom, #e96719, #f38120 78%);
   background-image: -ms-linear-gradient(bottom, #e96719, #f38120 78%);
   background-image: linear-gradient(to top, #e96719, #f38120 78%);}
-.btn-primary, .btn-primary:focus, .btn-primary:active{background-color: #018cba; border-color: #096e90}
+.btn-primary, .btn-primary:focus, .btn-primary:active{background-color: #7DA0C4; border-color: #096e90}
 .btn-primary:hover{background-color: #096e90;
   background-image: -webkit-linear-gradient(bottom, #096e90, #018cba 61%);
   background-image: -moz-linear-gradient(bottom, #096e90, #018cba 61%);
