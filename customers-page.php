@@ -8,7 +8,7 @@ $clients = GetPosts('clients');
 
 get_header(); ?>
 
-<section class="banner banner-about">
+<section class="banner banner-customers">
   <div class="container">
     <h1>Full Circle Customers</h1>
   </div>
