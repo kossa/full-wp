@@ -27,7 +27,7 @@
         <ul>
           <li>Prove your campaign’s contribution to revenue</li>
           <li>Invest your marketing budget strategically</li>
-          <li>Optimize your marketing mix now and inthe future</li>
+          <li>Optimize your marketing mix now and in the future</li>
         </ul>
         <a href="<?php echo bloginfo( 'url' ); ?>/solutions/demand-generation/" class="cta">Learn More</a>
       </div>
