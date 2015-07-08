@@ -9,7 +9,7 @@
           <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B4C4aEAF" class="btn btn-primary">get it on the appexchange ›</a>
         </div>
         <div class="col-sm-6">
-           <a href="/full-wp/products/opportunity-gatekeeper/>"<h3>Opportunity Gatekeeper ›</h3></a>
+           <a href="/full-wp/products/opportunity-gatekeeper/" <h3>Opportunity Gatekeeper ›</h3></a>
           <p>Bad data affects everyone. And bad Opportunity data is the worst. It ruins your day and wastes time. Opportunity Gatekeeper saves you that time and makes it possible to get complete and accurate data on every Opportunity record.</p>
           <a href="https://appexchange.salesforce.com/listingDetail?listingId=a0N3000000B5OS6EAN" class="btn btn-primary">get it on the appexchange ›</a>
         </div>
