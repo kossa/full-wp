@@ -286,7 +286,7 @@ section.menu-pages li a:hover, section.menu-pages li.active a{background-color: 
 
 
 /*product-area*/
-section.product-area{font-size: 16px;padding: 50px 0;}
+section.product-area{font-size: 16px;padding: 50px 0 0;}
 section.product-area hr{max-width: 60%;margin: 20px auto;border-color: #E2E2E2;}
 section.product-area .intro{margin-bottom: 70px;}
 section.product-area img{margin: auto;display: block;}
